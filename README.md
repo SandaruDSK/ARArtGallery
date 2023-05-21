@@ -1,1 +1,1 @@
-# VR Art Gallery
+# AR Art Gallery
