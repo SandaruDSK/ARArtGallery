@@ -5,58 +5,8 @@
     },
     "extensionsUsed" : [
         "KHR_materials_specular",
-        "KHR_materials_ior",
-        "KHR_lights_punctual"
+        "KHR_materials_ior"
     ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.006"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.007"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.009"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.010"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
@@ -76,63 +26,15 @@
                 11,
                 12,
                 13,
-                14
+                14,
+                15
             ]
         }
     ],
     "nodes" : [
         {
-            "extras" : {
-                "MaxHandle" : 1
-            },
             "mesh" : 0,
             "name" : "Tavla",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071068286895752
-            ],
-            "scale" : [
-                0.0010000000474974513,
-                0.0010000000474974513,
-                0.0010000000474974513
-            ],
-            "translation" : [
-                4.2654924392700195,
-                4.302982330322266,
-                -5.445620059967041
-            ]
-        },
-        {
-            "extras" : {
-                "MaxHandle" : 4
-            },
-            "mesh" : 1,
-            "name" : "Tavla001",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071068286895752
-            ],
-            "scale" : [
-                0.0010000000474974513,
-                0.0010000000474974513,
-                0.0010000000474974513
-            ],
-            "translation" : [
-                5.574363708496094,
-                1.6539100408554077,
-                -5.445620059967041
-            ]
-        },
-        {
-            "extras" : {
-                "MaxHandle" : 5
-            },
-            "mesh" : 2,
-            "name" : "Tavla002",
             "rotation" : [
                 0.70710688829422,
                 0,
@@ -145,15 +47,90 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                7.973586082458496,
-                1.6539100408554077,
-                -5.445620059967041
+                0.7386576533317566,
+                1.7964956760406494,
+                -12.693790435791016
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 7
-            },
+            "name" : "Profil",
+            "rotation" : [
+                0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                4.321481227874756,
+                -0.4258635938167572,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Tavla001",
+            "rotation" : [
+                0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                6.686619281768799,
+                1.6539143323898315,
+                -5.445624351501465
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Tavla002",
+            "rotation" : [
+                0.5,
+                -0.5,
+                0.5000000596046448,
+                0.4999999403953552
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                24.0233097076416,
+                1.7139407396316528,
+                -0.9662051796913147
+            ]
+        },
+        {
+            "name" : "Profil001",
+            "rotation" : [
+                0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                1.3447602987289429,
+                -0.44122743606567383,
+                0
+            ]
+        },
+        {
             "mesh" : 3,
             "name" : "Tavla003",
             "rotation" : [
@@ -168,15 +145,12 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                9.746551513671875,
-                1.6539100408554077,
-                -5.445620059967041
+                11.341682434082031,
+                1.6184132099151611,
+                -8.597001075744629
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 8
-            },
             "mesh" : 4,
             "name" : "Tavla004",
             "rotation" : [
@@ -191,22 +165,19 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                9.054439544677734,
-                5.1529459953308105,
-                -5.445620059967041
+                17.774545669555664,
+                1.700062870979309,
+                -12.536219596862793
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 9
-            },
             "mesh" : 5,
             "name" : "Tavla005",
             "rotation" : [
-                0.70710688829422,
-                0,
-                0,
-                0.7071066498756409
+                0.5,
+                -0.5,
+                0.5000000596046448,
+                0.4999999701976776
             ],
             "scale" : [
                 0.0010000000474974513,
@@ -214,22 +185,19 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                6.914577484130859,
-                5.2224440574646,
-                -5.445620059967041
+                21.97491455078125,
+                1.7193444967269897,
+                4.030747890472412
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 10
-            },
             "mesh" : 6,
             "name" : "Tavla006",
             "rotation" : [
-                0.70710688829422,
-                0,
-                0,
-                0.7071066498756409
+                0.5,
+                -0.5,
+                0.5000000596046448,
+                0.4999999701976776
             ],
             "scale" : [
                 0.0010000000474974513,
@@ -237,22 +205,38 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                12.032577514648438,
-                4.194076061248779,
-                -5.445620059967041
+                21.974912643432617,
+                1.6707037687301636,
+                -8.193033218383789
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 12
-            },
+            "name" : "Profil002",
+            "rotation" : [
+                0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ],
+            "scale" : [
+                0.0009797790553420782,
+                0.0009797790553420782,
+                0.0009797790553420782
+            ],
+            "translation" : [
+                10.96364688873291,
+                -0.4258635938167572,
+                0
+            ]
+        },
+        {
             "mesh" : 7,
             "name" : "Tavla007",
             "rotation" : [
+                0,
+                -0.7071066498756409,
                 0.70710688829422,
-                0,
-                0,
-                0.7071066498756409
+                5.338507236274381e-08
             ],
             "scale" : [
                 0.0010000000474974513,
@@ -260,22 +244,19 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                11.652303695678711,
-                1.6539100408554077,
-                -5.445620059967041
+                13.038135528564453,
+                1.6367801427841187,
+                9.00827693939209
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 13
-            },
             "mesh" : 8,
             "name" : "Tavla008",
             "rotation" : [
+                0,
+                -0.7071066498756409,
                 0.70710688829422,
-                0,
-                0,
-                0.7071066498756409
+                5.338507236274381e-08
             ],
             "scale" : [
                 0.0010000000474974513,
@@ -283,22 +264,19 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                13.396478652954102,
-                2.0112087726593018,
-                -5.445620059967041
+                5.148179531097412,
+                1.5540435314178467,
+                4.596349716186523
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 14
-            },
             "mesh" : 9,
             "name" : "Tavla009",
             "rotation" : [
+                0,
+                -0.7071066498756409,
                 0.70710688829422,
-                0,
-                0,
-                0.7071066498756409
+                5.338507236274381e-08
             ],
             "scale" : [
                 0.0010000000474974513,
@@ -306,100 +284,52 @@
                 0.0010000000474974513
             ],
             "translation" : [
-                3.6079883575439453,
-                2.489485263824463,
-                -5.445620059967041
+                0.7929819822311401,
+                1.5677016973495483,
+                4.596349716186523
             ]
         },
         {
             "mesh" : 10,
+            "name" : "Line001",
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                12.27247428894043,
+                0,
+                -2.4108352661132812
+            ]
+        },
+        {
+            "mesh" : 11,
+            "name" : "Plane001",
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                10.255497932434082,
+                0,
+                -3.131617784500122
+            ]
+        },
+        {
+            "mesh" : 12,
             "name" : "Text",
             "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071068286895752
+                0.5,
+                0.5,
+                -0.5,
+                0.5
             ],
             "translation" : [
-                4.518766403198242,
-                3.73826003074646,
-                -5.445620059967041
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Light.006",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                11.22416877746582,
-                3.4779274463653564,
-                -11.2931489944458
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 1
-                }
-            },
-            "name" : "Light.001",
-            "rotation" : [
-                -0.013224804773926735,
-                0.9397613406181335,
-                0.12359857559204102,
-                0.318429172039032
-            ],
-            "translation" : [
-                11.026549339294434,
-                14.888858795166016,
-                -6.916757583618164
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 2
-                }
-            },
-            "name" : "Light.003",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                4.286754608154297,
-                1.9096776247024536,
-                -1.4481273889541626
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 3
-                }
-            },
-            "name" : "Light.004",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                9.330804824829102,
-                -0.17708969116210938,
-                -2.0738773345947266
+                -2.3888421058654785,
+                1.341230869293213,
+                -3.176309585571289
             ]
         }
     ],
@@ -445,9 +375,6 @@
             },
             "name" : "Bild",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -517,9 +444,6 @@
             },
             "name" : "Material #61",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -589,9 +513,6 @@
             },
             "name" : "Material #69",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 2
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -661,9 +582,6 @@
             },
             "name" : "Material #99",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 3
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -733,9 +651,6 @@
             },
             "name" : "Material #94",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 4
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -805,9 +720,6 @@
             },
             "name" : "Material #103",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 5
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -877,9 +789,6 @@
             },
             "name" : "Material #107",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 6
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -949,9 +858,6 @@
             },
             "name" : "Material #108",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 7
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1021,9 +927,6 @@
             },
             "name" : "Material #115",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 8
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1093,9 +996,6 @@
             },
             "name" : "Material #118",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 9
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1119,6 +1019,56 @@
                     0.5879999995231628,
                     0.5879999995231628,
                     0.5879999995231628,
+                    1
+                ],
+                "roughnessFactor" : 0.858578622341156
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Walls",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.658823549747467,
+                    0.658823549747467,
+                    0.658823549747467,
+                    1
+                ],
+                "roughnessFactor" : 0.858578622341156
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Floor",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.12941177189350128,
+                    0.3764705955982208,
+                    0.6078431606292725,
                     1
                 ],
                 "roughnessFactor" : 0.858578622341156
@@ -1461,112 +1411,45 @@
             ]
         },
         {
-            "name" : "Text",
+            "name" : "Mesh.010",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 93,
-                        "TEXCOORD_0" : 94,
-                        "NORMAL" : 95
+                        "NORMAL" : 94
                     },
-                    "indices" : 96,
+                    "indices" : 95,
                     "material" : 30
                 }
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
         },
         {
-            "sampler" : 0,
-            "source" : 1
+            "name" : "Mesh.011",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 96,
+                        "TEXCOORD_0" : 97,
+                        "NORMAL" : 98
+                    },
+                    "indices" : 99,
+                    "material" : 31
+                }
+            ]
         },
         {
-            "sampler" : 0,
-            "source" : 2
-        },
-        {
-            "sampler" : 0,
-            "source" : 3
-        },
-        {
-            "sampler" : 0,
-            "source" : 4
-        },
-        {
-            "sampler" : 0,
-            "source" : 5
-        },
-        {
-            "sampler" : 0,
-            "source" : 6
-        },
-        {
-            "sampler" : 0,
-            "source" : 7
-        },
-        {
-            "sampler" : 0,
-            "source" : 8
-        },
-        {
-            "sampler" : 0,
-            "source" : 9
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "fjaerland-1920x1080",
-            "uri" : "fjaerland-1920x1080.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "iceberg-greenland-boat-split-view-dive-is-1800x1196",
-            "uri" : "iceberg-greenland-boat-split-view-dive-is-1800x1196.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Uno reverse card",
-            "uri" : "Uno%20reverse%20card.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "y5q378kh2txz",
-            "uri" : "y5q378kh2txz.png"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Greenland",
-            "uri" : "Greenland.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Sully Wazowski",
-            "uri" : "Sully%20Wazowski.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Hav-is",
-            "uri" : "Hav-is.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "burj-al-arab-jumeirah-terrace-hero",
-            "uri" : "burj-al-arab-jumeirah-terrace-hero.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Helix nebula",
-            "uri" : "Helix%20nebula.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "pillars_of_creation",
-            "uri" : "pillars_of_creation.jpg"
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 100,
+                        "TEXCOORD_0" : 101,
+                        "NORMAL" : 102
+                    },
+                    "indices" : 103,
+                    "material" : 32
+                }
+            ]
         }
     ],
     "accessors" : [
@@ -2431,6 +2314,68 @@
         {
             "bufferView" : 93,
             "componentType" : 5126,
+            "count" : 228,
+            "max" : [
+                11950.8310546875,
+                3500,
+                11619.1083984375
+            ],
+            "min" : [
+                -15351.00390625,
+                0,
+                -10482.9541015625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 94,
+            "componentType" : 5126,
+            "count" : 228,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 95,
+            "componentType" : 5123,
+            "count" : 444,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 96,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                22826.40625,
+                0,
+                16024.556640625
+            ],
+            "min" : [
+                -22826.40625,
+                0,
+                -16024.556640625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 97,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 98,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 99,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 100,
+            "componentType" : 5126,
             "count" : 23480,
             "max" : [
                 7.599451541900635,
@@ -2445,19 +2390,19 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 94,
+            "bufferView" : 101,
             "componentType" : 5126,
             "count" : 23480,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 95,
+            "bufferView" : 102,
             "componentType" : 5126,
             "count" : 23480,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 96,
+            "bufferView" : 103,
             "componentType" : 5123,
             "count" : 118284,
             "type" : "SCALAR"
@@ -3024,38 +2969,74 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 281760,
+            "byteLength" : 2736,
             "byteOffset" : 51992,
             "target" : 34962
         },
         {
             "buffer" : 0,
+            "byteLength" : 2736,
+            "byteOffset" : 54728,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 888,
+            "byteOffset" : 57464,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 58352,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 58400,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 58432,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 58480,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 281760,
+            "byteOffset" : 58492,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
             "byteLength" : 187840,
-            "byteOffset" : 333752,
+            "byteOffset" : 340252,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 281760,
-            "byteOffset" : 521592,
+            "byteOffset" : 528092,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 236568,
-            "byteOffset" : 803352,
+            "byteOffset" : 809852,
             "target" : 34963
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 1039920,
+            "byteLength" : 1046420,
             "uri" : "scene.bin"
         }
     ]
