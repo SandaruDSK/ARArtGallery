@@ -4,79 +4,9 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
-        "KHR_lights_punctual",
         "KHR_materials_specular",
         "KHR_materials_ior"
     ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.001"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.002"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.003"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.004"
-                },
-                {
-                    "color" : [
-                        1,
-                        1,
-                        1
-                    ],
-                    "intensity" : 54351.41306588226,
-                    "type" : "point",
-                    "name" : "Light.005"
-                }
-            ]
-        }
-    },
     "scene" : 0,
     "scenes" : [
         {
@@ -97,40 +27,12 @@
                 12,
                 13,
                 14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20,
-                21
+                15
             ]
         }
     ],
     "nodes" : [
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Light",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                4.076245307922363,
-                5.153974533081055,
-                -1.0054539442062378
-            ]
-        },
-        {
-            "extras" : {
-                "MaxHandle" : 1
-            },
             "mesh" : 0,
             "name" : "Tavla",
             "rotation" : [
@@ -151,9 +53,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 3
-            },
             "name" : "Profil",
             "rotation" : [
                 0.70710688829422,
@@ -173,9 +72,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 4
-            },
             "mesh" : 1,
             "name" : "Tavla001",
             "rotation" : [
@@ -196,9 +92,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 5
-            },
             "mesh" : 2,
             "name" : "Tavla002",
             "rotation" : [
@@ -219,9 +112,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 6
-            },
             "name" : "Profil001",
             "rotation" : [
                 0.70710688829422,
@@ -241,9 +131,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 7
-            },
             "mesh" : 3,
             "name" : "Tavla003",
             "rotation" : [
@@ -264,9 +151,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 8
-            },
             "mesh" : 4,
             "name" : "Tavla004",
             "rotation" : [
@@ -287,9 +171,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 9
-            },
             "mesh" : 5,
             "name" : "Tavla005",
             "rotation" : [
@@ -310,9 +191,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 10
-            },
             "mesh" : 6,
             "name" : "Tavla006",
             "rotation" : [
@@ -333,9 +211,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 11
-            },
             "name" : "Profil002",
             "rotation" : [
                 0.70710688829422,
@@ -355,9 +230,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 12
-            },
             "mesh" : 7,
             "name" : "Tavla007",
             "rotation" : [
@@ -378,9 +250,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 13
-            },
             "mesh" : 8,
             "name" : "Tavla008",
             "rotation" : [
@@ -401,9 +270,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 14
-            },
             "mesh" : 9,
             "name" : "Tavla009",
             "rotation" : [
@@ -424,9 +290,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 17
-            },
             "mesh" : 10,
             "name" : "Line001",
             "scale" : [
@@ -441,9 +304,6 @@
             ]
         },
         {
-            "extras" : {
-                "MaxHandle" : 19
-            },
             "mesh" : 11,
             "name" : "Plane001",
             "scale" : [
@@ -455,101 +315,6 @@
                 10.255497932434082,
                 0,
                 -3.131617784500122
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 1
-                }
-            },
-            "name" : "Light.001",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                -1.2513810396194458,
-                5.153974533081055,
-                0.6319094896316528
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 2
-                }
-            },
-            "name" : "Light.002",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                11.649751663208008,
-                5.153974533081055,
-                -1.0054539442062378
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 3
-                }
-            },
-            "name" : "Light.003",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                17.868221282958984,
-                5.153974533081055,
-                -1.0054539442062378
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 4
-                }
-            },
-            "name" : "Light.004",
-            "rotation" : [
-                -0.28416627645492554,
-                0.7269423007965088,
-                0.34203392267227173,
-                0.5232754945755005
-            ],
-            "translation" : [
-                7.961277008056641,
-                5.153974533081055,
-                -1.0054539442062378
-            ]
-        },
-        {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 5
-                }
-            },
-            "name" : "Light.005",
-            "rotation" : [
-                -0.284166157245636,
-                0.7269424200057983,
-                0.34203392267227173,
-                0.5232754349708557
-            ],
-            "translation" : [
-                4.076245307922363,
-                0.29726266860961914,
-                9.399605751037598
             ]
         },
         {
@@ -610,9 +375,6 @@
             },
             "name" : "Bild",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -682,9 +444,6 @@
             },
             "name" : "Material #61",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -754,9 +513,6 @@
             },
             "name" : "Material #69",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 2
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -826,9 +582,6 @@
             },
             "name" : "Material #99",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 3
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -898,9 +651,6 @@
             },
             "name" : "Material #94",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 4
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -970,9 +720,6 @@
             },
             "name" : "Material #103",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 5
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1042,9 +789,6 @@
             },
             "name" : "Material #107",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 6
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1114,9 +858,6 @@
             },
             "name" : "Material #108",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 7
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1186,9 +927,6 @@
             },
             "name" : "Material #115",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 8
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1258,9 +996,6 @@
             },
             "name" : "Material #118",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 9
-                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1715,100 +1450,6 @@
                     "material" : 32
                 }
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
-        },
-        {
-            "sampler" : 0,
-            "source" : 2
-        },
-        {
-            "sampler" : 0,
-            "source" : 3
-        },
-        {
-            "sampler" : 0,
-            "source" : 4
-        },
-        {
-            "sampler" : 0,
-            "source" : 5
-        },
-        {
-            "sampler" : 0,
-            "source" : 6
-        },
-        {
-            "sampler" : 0,
-            "source" : 7
-        },
-        {
-            "sampler" : 0,
-            "source" : 8
-        },
-        {
-            "sampler" : 0,
-            "source" : 9
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "fjaerland-1920x1080",
-            "uri" : "fjaerland-1920x1080.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "iceberg-greenland-boat-split-view-dive-is-1800x1196",
-            "uri" : "iceberg-greenland-boat-split-view-dive-is-1800x1196.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Uno reverse card",
-            "uri" : "Uno%20reverse%20card.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "y5q378kh2txz",
-            "uri" : "y5q378kh2txz.png"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Greenland",
-            "uri" : "Greenland.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Sully Wazowski",
-            "uri" : "Sully%20Wazowski.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Hav-is",
-            "uri" : "Hav-is.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "burj-al-arab-jumeirah-terrace-hero",
-            "uri" : "burj-al-arab-jumeirah-terrace-hero.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Helix nebula",
-            "uri" : "Helix%20nebula.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "pillars_of_creation",
-            "uri" : "pillars_of_creation.jpg"
         }
     ],
     "accessors" : [
@@ -3391,12 +3032,6 @@
             "byteLength" : 236568,
             "byteOffset" : 809852,
             "target" : 34963
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [
