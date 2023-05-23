@@ -375,6 +375,9 @@
             },
             "name" : "Bild",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -444,6 +447,9 @@
             },
             "name" : "Material #61",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -513,6 +519,9 @@
             },
             "name" : "Material #69",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -582,6 +591,9 @@
             },
             "name" : "Material #99",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -651,6 +663,9 @@
             },
             "name" : "Material #94",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -720,6 +735,9 @@
             },
             "name" : "Material #103",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -789,6 +807,9 @@
             },
             "name" : "Material #107",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 6
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -858,6 +879,9 @@
             },
             "name" : "Material #108",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -927,6 +951,9 @@
             },
             "name" : "Material #115",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 8
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -996,6 +1023,9 @@
             },
             "name" : "Material #118",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 9
+                },
                 "roughnessFactor" : 0.858578622341156
             }
         },
@@ -1450,6 +1480,100 @@
                     "material" : 32
                 }
             ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "fjaerland-1920x1080",
+            "uri" : "fjaerland-1920x1080.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "iceberg-greenland-boat-split-view-dive-is-1800x1196",
+            "uri" : "iceberg-greenland-boat-split-view-dive-is-1800x1196.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Uno reverse card",
+            "uri" : "Uno%20reverse%20card.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "y5q378kh2txz",
+            "uri" : "y5q378kh2txz.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Greenland",
+            "uri" : "Greenland.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Sully Wazowski",
+            "uri" : "Sully%20Wazowski.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Hav-is",
+            "uri" : "Hav-is.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "burj-al-arab-jumeirah-terrace-hero",
+            "uri" : "burj-al-arab-jumeirah-terrace-hero.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Helix nebula",
+            "uri" : "Helix%20nebula.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "pillars_of_creation",
+            "uri" : "pillars_of_creation.jpg"
         }
     ],
     "accessors" : [
@@ -3032,6 +3156,12 @@
             "byteLength" : 236568,
             "byteOffset" : 809852,
             "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
         }
     ],
     "buffers" : [
